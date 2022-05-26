@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Number Guess Game</title>
+        <link href="numberguess.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+        
+        <div class='container'>
+            <div class="textbox">
+                <h3>
+                Number Guess high-low game!
+                </h3>
+            
+                <p>
+                    <span class="firstline">I just choose a secret number between 1 and 100.</span>
+                    <br/>
+                    <span class="secondline">Is the secret number is higer or lower than <span class="hint">hintnumber</span>.</span>
+                    <br/>
+                    <span class="thirdline">The jackpot button is if you think it's the same!</span>
+                </p>
+            </div>
+
+            <div class="btn">
+                <button type=submit class="lower">Lower</button>
+                <button type=submit class="jc">JACKPOT!</button>
+                <button type=submit class="higher">Higher</button>
+            </div>
+
+            <div class="again">
+                <button type="submit" class="playagain" onclick="playagain()">PLAY AGAIN?</button>
+            </div>
+
+        </div>
+
+        <script src="numberguess.js" type="text/javascript"></script>
+    </body>
+</html>
